@@ -3,7 +3,7 @@
 namespace Torgodly\Html2Media\Traits;
 
 use Closure;
-use Filament\Actions\MountableAction;
+use Filament\Actions\Action as MountableAction;
 use Filament\Support\Enums\Alignment;
 use Filament\Support\Enums\Width as MaxWidth;
 use Filament\Support\Facades\FilamentIcon;
