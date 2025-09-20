@@ -5,12 +5,12 @@ namespace Torgodly\Html2Media\Traits;
 use Closure;
 use Filament\Actions\MountableAction;
 use Filament\Support\Enums\Alignment;
-use Filament\Support\Enums\MaxWidth;
+use Filament\Support\Enums\Width as MaxWidth;
 use Filament\Support\Facades\FilamentIcon;
-use Filament\Tables\Actions\Action;
+use Filament\Actions\Action;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\View\View;
-use Illuminate\Support\HtmlString;
+use Illuminate\Support\HtmlString; 
 
 /**
  * Trait HasHtml2MediaActionBase
